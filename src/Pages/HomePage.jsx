@@ -645,7 +645,9 @@ const HomePage = () => {
         <div className="container footer-content">
           <span className="footer-farm-text">Khalui Farm</span>
 
-          <p>{t.footerText}</p>
+          <a href="tel:+19013049543" className="footer-phone" dir="ltr">
+            +1 (901) 304-9543
+          </a>
 
           <span className="footer-copyright">
             © {new Date().getFullYear()} {t.footerRights}
