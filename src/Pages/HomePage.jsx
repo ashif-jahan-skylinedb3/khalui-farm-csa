@@ -639,33 +639,6 @@ const HomePage = () => {
             </div>
           </div>
         </section>
-
-        <section className="contact-section" id="contact">
-          <div className="container contact-layout">
-            <div className="contact-copy">
-              <div className="section-tag contact-tag">{t.ctaTag}</div>
-              <h2>{t.ctaTitle}</h2>
-              <p>{t.ctaDescription}</p>
-
-              <a href="tel:+19013049543" className="contact-call-button">
-                {t.call}
-                <ArrowIcon diagonal />
-              </a>
-              <div className="contact-phone" dir="ltr">
-                +1 (901) 304-9543
-              </div>
-            </div>
-
-            <div className="contact-art" aria-hidden="true">
-              <div className="contact-circle circle-one" />
-              <div className="contact-circle circle-two" />
-              <div className="contact-circle circle-three" />
-              <div className="contact-big-leaf">
-                <LeafIcon />
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
 
       <footer className="site-footer">
